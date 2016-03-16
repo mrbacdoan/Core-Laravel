@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* theme */
+.skin-red .main-sidebar, .skin-red .left-side {
+    background-color: #222d32;
+}
+
+.skin-red .sidebar-menu>li.header {
+    color: #4b646f;
+    background: #1a2226;
+}
+
+.skin-red .main-header .navbar {
+    background-color: #dd4b39;
+}
+
+.skin-red .main-header .logo {
+    background-color: #d73925;
+    color: #fff;
+    border-bottom: 0 solid transparent;
+}
+
+.skin-red .main-header li.user-header {
+    background-color: #dd4b39;
+}
+
+.skin-red .sidebar-menu>li:hover>a, .skin-red .sidebar-menu>li.active>a {
+    color: #fff;
+    background: #1e282c;
+    border-left-color: #dd4b39;
+}
+/* end theme */
+
+ul.parsley-errors-list{
+    margin-bottom: -10px;
+}
+.parsley-required{
+    color: #dd4b39;
+    list-style: none;
+    margin: 10px 0;
+}
+.avatar-table{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+.nav-tabs-custom>.nav-tabs>li.active{
+    border-top-color: #dd4b39;
+}
+.users-table td{
+    vertical-align: middle !important;
+}
+
+/* NOTY Notifications */
+#noty_top_layout_container,
+#noty_bottom_layout_container {
+    width: 98% !important;
+    left: 1% !important; }
+
+#noty_top_layout_container {
+    margin-top: 50px !important; }
+
+#noty_bottom_layout_container {
+    margin-bottom: 10px !important; }
+
+.andy_theme {
+    overflow: hidden;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    position: relative; }
+
+.andy_theme.noty_container_type_alert {
+    background-color: #fff;
+    border: 1px solid #eee; }
+
+.andy_theme.noty_container_type_information {
+    background-color: #4fbeba;
+    color: #fff; }
+
+.andy_theme.noty_container_type_error {
+    background-color: #c0392b;
+    color: #fff; }
+
+.andy_theme.noty_container_type_warning {
+    background-color: #d7af0d;
+    color: #fff; }
+
+.andy_theme.noty_container_type_success {
+    background-color: #64b92a;
+    color: #fff; }
+
+.andy_theme.noty_container_type_confirm {
+    background-color: #fff; }
+
+.andy_theme .noty_message {
+    padding: 10px 20px; }
+
+.andy_theme .noty_close {
+    position: absolute;
+    top: 0;
+    right: 0; }
+
+.andy_theme .noty_close:before {
+    position: absolute;
+    top: -2px;
+    right: 8px;
+    content: "x";
+    color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: 700; }
+
+.andy_theme .noty_close:hover:before {
+    color: rgba(0, 0, 0, 0.8); }
+
+.andy_theme:hover > .noty_bar > .noty_message > .noty_close {
+    color: #000; }
+
+.andy_theme .noty_buttons {
+    margin: 0 6px;
+    padding: 6px 0;
+    text-align: right;
+    border-top: 1px solid #eee; }
+
+.andy_theme .noty_buttons .btn + .btn {
+    margin-left: 6px; }
+
+.andy_theme + .andy_theme {
+    border-top: 1px solid rgba(0, 0, 0, 0.2); }
+
+.noty_modal.andy_theme {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 10000;
+    display: none;
+    border: none;
+    left: 0;
+    top: 0; }
+
+/* end NOTY Notifications */
+
+.control-label{
+    text-align: left !important;
+    padding-left: 50px;
+}
+
+/* profile */
+.box-avatar{
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+.box-avatar img{
+    width: 100%;
+    height: 100%;
+}
+
+.imageBox
+{
+    position: relative;
+    height: 400px;
+    width: 570px;
+    border:1px solid #aaa;
+    background: #fff;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    cursor:move;
+}
+
+.imageBox .thumbBox
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    box-sizing: border-box;
+    border: 1px solid rgb(102, 102, 102);
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    background: none repeat scroll 0% 0% transparent;
+}
+
+.imageBox .spinner
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 400px;
+    background: rgba(0,0,0,0.7);
+}
+
+.action
+{
+    height: 30px;
+    margin: 10px 0;
+}
+.cropped>img
+{
+    margin-right: 10px;
+}
+
+.modal-body-avatar{
+    text-align: center;
+}
+
+#btnCrop{
+    margin: 0 5px;
+}
+#btnZoomIn, #btnZoomOut{
+    margin: 0 1px;
+}
